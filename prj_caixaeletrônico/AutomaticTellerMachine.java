@@ -1,7 +1,7 @@
 /********************************************
 Objetivo:       Criar um programa para uma máquina de caixa eletrônico
 Programador:    Murillo Meira
-Data:           04/004/2019
+Data:           04/04/2019
 *********************************************/
 import javax.swing.JOptionPane;
 
