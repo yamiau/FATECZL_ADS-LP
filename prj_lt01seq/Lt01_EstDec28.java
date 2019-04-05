@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       vigésimo-oitavo programa do lote
+Objetivo:       Receba o preço atual e a média mensal de um produto. Calcule e mostre o novo preço
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

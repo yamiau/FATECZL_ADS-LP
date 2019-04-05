@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       trigésimo-oitavo programa do lote
+Objetivo:       Receba 100 números inteiros reais. 
+*               Verifique e mostre o maior e o menor valor. Obs.: somente valores positivos. 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

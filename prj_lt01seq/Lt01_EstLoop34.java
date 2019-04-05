@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       trigésimo-quarto programa do lote
+Objetivo:       Receba um número. Calcule e mostre os resultados da tabuada desse número. 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

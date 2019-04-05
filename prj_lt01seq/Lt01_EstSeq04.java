@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       quarto programa do lote
+Objetivo:       Receba a temperatura em graus Celsius. 
+*               Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160)/5. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

@@ -1,7 +1,8 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       décimo-sétimo programa do lote
+Objetivo:       Calcule a quantidade de litros gastos em uma viagem, sabendo que o automóvel faz 12 km/l. 
+*               Receber o tempo de percurso e a velocidade média. 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

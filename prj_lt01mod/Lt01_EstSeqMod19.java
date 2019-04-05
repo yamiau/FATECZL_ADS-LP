@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       décimo-nono programa do lote
+Objetivo:       Receba 2 valores reais. Calcule e mostre o maior deles.
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

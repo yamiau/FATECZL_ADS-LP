@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       quadragésimo-quarto programa do lote
+Objetivo:       Receba o número da base e do expoente. Calcule e mostre o valor da potência. 
 Programador:    Murillo Meira
 Data:           10/03/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       décimo-oitavo programa do lote
+Objetivo:       Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menos valor. 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       quadragésimo programa do lote
+Objetivo:       Receba 2 números inteiros. Verifique e mostre todos os números primos existentes entre eles. 
 Programador:    Murillo Meira
 Data:           19/02/2019
 *********************************************/

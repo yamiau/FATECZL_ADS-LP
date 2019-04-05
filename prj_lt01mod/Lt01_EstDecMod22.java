@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       vigésimo-segundo programa do lote
+Objetivo:       Receba 2 valores inteiros e diferentes. Mostre seus valores em ordem crescente. 
 Programador:    Murillo Meira
 Data:           07/03/2019
 *********************************************/

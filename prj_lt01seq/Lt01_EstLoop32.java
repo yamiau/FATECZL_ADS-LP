@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       trigésimo-segundo programa do lote
+Objetivo:       Receba um número inteiro. Calcule e mostre o seu fatorial. 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       primeiro programa pro lote
+Objetivo:       Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

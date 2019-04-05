@@ -1,7 +1,9 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       trigésimo-nono programa do lote
+Objetivo:       Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde:   
+*               Casa:  1 2 3 4 ... 64   
+*               Qdte:  1 2 4 8 ... N 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       quadragésimo-segundo programa do lote
+Objetivo:       Calcule e mostre a série 1 + 2/3 + 3/5 + ... + 50/99. 
 Programador:    Murillo Meira
 Data:           17/02/2019
 *********************************************/

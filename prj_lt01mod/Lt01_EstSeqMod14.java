@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       décimo-quarto programa do lote
+Objetivo:       Receba 2 ângulos de um triângulo. Calcule e mostre o valor do 3º ângulo.
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       sexto programa do lote
+Objetivo:       Receba os valores em x e y. Efetue a troca de seus valores e mostre seus conteúdos. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

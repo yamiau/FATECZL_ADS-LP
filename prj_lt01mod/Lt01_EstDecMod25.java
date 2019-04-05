@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       vigésimo-quinto programa do lote
+Objetivo:       Receba a hora de início e de final de um jogo (HH,MM), calcular o tempo do jogo em horas e minutos, sabendo que o tempo máximo é menor que 24 horas e pode começar num dia e terminar noutro. 
 Programador:    Murillo Meira
 Data:           07/03/2019
 *********************************************/

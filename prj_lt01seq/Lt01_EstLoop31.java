@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       trigésimo-primeiro programa do lote
+Objetivo:       Calcule e mostre o quadrado dos números entre 10 e 150.
 Programador:    Murillo Meira
 Data:           10/03/2019
 *********************************************/

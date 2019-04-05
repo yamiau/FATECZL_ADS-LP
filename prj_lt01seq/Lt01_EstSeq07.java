@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       sétimo programa do lote
+Objetivo:       Receba os valores do comprimento, largura e altura de um paralelepípedo. 
+*               Calcule e mostre seu volume. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

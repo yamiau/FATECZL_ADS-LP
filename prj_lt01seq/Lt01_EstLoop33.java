@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       trigésimo-terceiro programa do lote
+Objetivo:       Receba um número. Calcule e mostre a série 1 + 1/2 + 1/3 + ... + 1/N.
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

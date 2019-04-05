@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       décimo-terceiro  programa do lote
+Objetivo:       Receba a quantidade de alimento em quilos. 
+*               Calcule e mostre quantos dias durará esse alimento sabendo que a pessoa consome 50g ao dia.
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

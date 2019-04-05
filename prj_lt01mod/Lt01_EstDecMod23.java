@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       vigésimo-terceiro programa do lote
+Objetivo:       Receba 3 valores obrigatoriamente em ordem crescente e um 4º valor não necessariamente em ordem. Mostre os 4 números em ordem crescente 
 Programador:    Murillo Meira
 Data:           07/03/2019
 *********************************************/

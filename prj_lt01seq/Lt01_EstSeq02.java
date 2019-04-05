@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       segundo programa do lote
+Objetivo:       Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

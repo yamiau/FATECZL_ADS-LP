@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       trigésimo-sexto programa do lote
+Objetivo:       Receba um número N. Calcule e mostre a série 1 + 1/1! + 1/2! + ... + 1/N! 
 Programador:    Murillo Meira
 Data:           10/03/2019
 *********************************************/

@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       vigésimo programa do lote
+Objetivo:       Receba 4 notas bimestrais de um aluno. 
+*               Calcule e mostre a média aritmética. Mostre a mensagem de acordo com a média
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

@@ -1,7 +1,8 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       trigésimo-quinto programa do lote
+Objetivo:       Receba 2 números inteiros, verifique qual o maior entre eles. 
+*               Calcule e mostre o resultado da somatória dos números ímpares entre esses valores. 
 Programador:    Murillo Meira
 Data:           10/03/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       vigésimo-quarto programa do lote
+Objetivo:       Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3.
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

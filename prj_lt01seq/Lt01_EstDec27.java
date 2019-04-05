@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       vigésimo-sétimo programa do lote
+Objetivo:       Receba o número de voltas, a extensão do circuito (em metros) e o tempo de duração (minutos). 
+*               Calcule e mostre a velocidade média em km/h. 
 Programador:    Murillo Meira
 Data:           14/02/2019
 *********************************************/

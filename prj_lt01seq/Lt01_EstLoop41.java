@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       quadragésimo-primeiro programa do lote
+Objetivo:       Mostre todas as possibilidades de 2 dados de forma que a soma tenha como resultado 7. 
 Programador:    Murillo Meira
 Data:           17/02/2019
 *********************************************/

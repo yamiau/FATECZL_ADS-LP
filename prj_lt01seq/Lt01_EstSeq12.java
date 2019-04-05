@@ -1,7 +1,8 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       décimo-segundo programa do lote
+Objetivo:       Receba o ano de nascimento e o ano atual. 
+*               Calcule e mostre a sua idade e quantos anos terá daqui a 17 anos.
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

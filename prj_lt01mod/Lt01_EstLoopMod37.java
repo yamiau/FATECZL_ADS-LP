@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       trigésimo-sétimo programa do lote
+Objetivo:       Receba um número inteiro. Calcule e mostre a série de Fibonacci até o seu N’nésimo termo. 
 Programador:    Murillo Meira
 Data:           10/03/2019
 *********************************************/

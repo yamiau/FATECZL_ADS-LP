@@ -1,7 +1,7 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       vigésimo-sexto programa do lote
+Objetivo:       Receba 2 números inteiros. Verifique e mostre se o maior número é múltiplo do menor. 
 Programador:    Murillo Meira
 Data:           07/03/2019
 *********************************************/

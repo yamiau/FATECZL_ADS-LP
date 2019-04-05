@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       décimo programa do lote
+Objetivo:       Receba 2 números reais. Calcule e mostre a diferença desses valores. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       décimo-primeiro programa do lote
+Objetivo:       Receba o raio de uma circunferência. Calcule e mostre o comprimento da circunferência. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

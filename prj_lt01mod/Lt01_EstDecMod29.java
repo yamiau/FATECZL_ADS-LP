@@ -1,7 +1,9 @@
 package prj_lt01mod;
 
 /********************************************
-Objetivo:       vigésimo-nono programa do lote
+Objetivo:       Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento. 
+*               Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança = 3% e a renda fixa = 5%. 
+*               Demais tipos não serão considerados. 
 Programador:    Murillo Meira
 Data:           07/03/2019
 *********************************************/

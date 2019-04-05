@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       nono programa do lote
+Objetivo:       Receba os 2 números inteiros. Calcule e mostre a soma dos quadrados. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/

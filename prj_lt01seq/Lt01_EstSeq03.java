@@ -1,7 +1,7 @@
 package prj_lt01seq;
 
 /********************************************
-Objetivo:       terceiro programa do lote
+Objetivo:       Receba a base e a altura de um triângulo. Calcule e mostre a sua área. 
 Programador:    Murillo Meira
 Data:           07/02/2019
 *********************************************/
