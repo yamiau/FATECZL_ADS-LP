@@ -21,7 +21,14 @@ public class AutomaticTellerMachine {
         
         
         while ((op != 9) & (withdrawals< 100) ){
-            op = Integer.parseInt(JOptionPane.showInputDialog("Select your operation\n1 - Load bills\n2 - Withdraw\n3 - Statistics\n9 - Exit"));
+            
+            try{
+                op = Integer.parseInt(JOptionPane.showInputDialog("Select your operation\n1 - Load bills\n2 - Withdraw\n3 - Statistics\n9 - Exit"));
+            }
+            catch(Exception e){
+                JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
+                main(null);
+            }
             
             switch(op){
                 case 1:
@@ -50,7 +57,14 @@ public class AutomaticTellerMachine {
     static void load_bills(int[][] cash){
         
         for (int i = 0; i < cash[0].length; i++){
-            cash[1][i] = Integer.parseInt(JOptionPane.showInputDialog("Load the amount of R$" + cash[0][i] + ",00 bills"));
+            
+            try{
+                cash[1][i] = Integer.parseInt(JOptionPane.showInputDialog("Load the amount of R$" + cash[0][i] + ",00 bills"));
+            }
+            catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
+                load_bills(cash);
+            }
         }
         
         JOptionPane.showMessageDialog(null, "Bills loaded successfully!");
@@ -60,17 +74,14 @@ public class AutomaticTellerMachine {
         
         //receive bank info
         int bank = 0;
-        while (bank == 0){
+        if (bank == 0){
             bank = Integer.parseInt(JOptionPane.showInputDialog("Enter bank code\n1 - Eagle\n2 - Tiger\n3 - Dragon\n4 - Whale\n9 - Return"));
             
-            switch (bank){
-                case 9:
-                    main(null);
-                    break;
-                
-                default:
-                    JOptionPane.showMessageDialog(null, "Invalid operation!"); 
+            if (bank == 9){
+                main(null);
             }
+            
+            bank--;
         }
         
         //calculate the amount of cash in register
@@ -78,8 +89,16 @@ public class AutomaticTellerMachine {
         for (int i = 0; i < cash[0].length; i++){
             cap += (cash[0][i] * cash[1][i]);
         }
+        
         //withdrawal stage
-        int value = Integer.parseInt(JOptionPane.showInputDialog("Amount to withdraw"));
+        int value = 0;
+        try{
+            value =  Integer.parseInt(JOptionPane.showInputDialog("Amount to withdraw"));
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
+            main(null);
+        }
         
         if (value < 4){
             if (value == 0){
@@ -141,31 +160,49 @@ public class AutomaticTellerMachine {
         
         int bank = 0;
         while (bank == 0){
-            bank = Integer.parseInt(JOptionPane.showInputDialog("Enter bank code\n1 - Eagle\n2 - Tiger\n3 - Dragon\n4 - Whale\n9 - Return"));
+            
+            try{
+                bank = Integer.parseInt(JOptionPane.showInputDialog("Enter bank code\n1 - Eagle\n2 - Tiger\n3 - Dragon\n4 - Whale\n9 - Return"));
+            }
+            catch(Exception e){
+                JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
+                stats(stats);
+            }
+            
+            if (bank == 9){
+                main(null);
+            }
+            
+            bank--;
         }
         
         
         int display = 0;
         while (display != 9){
             
-            display = Integer.parseInt(JOptionPane.showInputDialog("Select data to display\n1 - Total amount withdrawn\n2 - Smallest amount withdrawn\n3 - Greatest amount withdrawn\n4 - Average of amounts withdrawn\n9 - Return"));
+            try{
+                display = Integer.parseInt(JOptionPane.showInputDialog("Select data to display\n1 - Total amount withdrawn\n2 - Smallest amount withdrawn\n3 - Greatest amount withdrawn\n4 - Average of amounts withdrawn\n9 - Return"));
+            }
+            catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
+            }
             
             switch (display){
                 
                 case 1:
-                    JOptionPane.showMessageDialog(null, "R$ " + stats[bank-1][display] + ",00 in total have been withdrawn by" + banklist[bank-1] + " users.");
+                    JOptionPane.showMessageDialog(null, "R$ " + stats[bank][display] + ",00 in total have been withdrawn by" + banklist[bank] + " users.");
                     break;
                 
                 case 2: 
-                    JOptionPane.showMessageDialog(null, "R$ " + stats[bank-1][display] + ",00 was the smallest amount withdrawn by" + banklist[bank-1] + " users.");
+                    JOptionPane.showMessageDialog(null, "R$ " + stats[bank][display] + ",00 was the smallest amount withdrawn by" + banklist[bank] + " users.");
                     break;
                     
                 case 3: 
-                    JOptionPane.showMessageDialog(null, "R$ " + stats[bank-1][display] + ",00 was the greatest amount withdrawn by" + banklist[bank-1] + " users.");
+                    JOptionPane.showMessageDialog(null, "R$ " + stats[bank][display] + ",00 was the greatest amount withdrawn by" + banklist[bank] + " users.");
                     break;
                     
                 case 4: 
-                    JOptionPane.showMessageDialog(null, "R$ " + (stats[bank-1][2]/stats[bank-1][3]) + ",00 have been withdrawn by" + banklist[bank-1] + " users.");
+                    JOptionPane.showMessageDialog(null, "R$ " + (stats[bank][2]/stats[bank][3]) + ",00 have been withdrawn by" + banklist[bank] + " users.");
                     break;
                 
                 case 9:
