@@ -67,6 +67,9 @@ public class AutomaticTellerMachine {
                 case 9:
                     main(null);
                     break;
+                
+                default:
+                    JOptionPane.showMessageDialog(null, "Invalid operation!"); 
             }
         }
         
