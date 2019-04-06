@@ -99,7 +99,7 @@ public class AutomaticTellerMachine {
         //withdrawal stage
         int value = 0;
         try{
-            value =  Integer.parseInt(JOptionPane.showInputDialog("Amount to withdraw"));
+            value =  Integer.parseInt(JOptionPane.showInputDialog("Insert the amount you wish to withdraw\nAvailable bills:\nR$ 2,00: " + cash[1][0] + "\nR$ 5,00: " + cash[1][1] + "\nR$ 10,00: " + cash[1][2] + "\nR$ 20,00: " + cash[1][3] + "\nR$ 50,00: " + cash[1][4] + "\nR$ 100,00: " + cash[1][5]));
         }
         catch(Exception e){
             JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
@@ -163,6 +163,8 @@ public class AutomaticTellerMachine {
                 System.out.println(cash[0][i]);
             }
         }
+        
+        JOptionPane.showMessageDialog(null, "Please withdraw your cash.");
     }
     
     static void stats(int[][] stats){
@@ -197,22 +199,23 @@ public class AutomaticTellerMachine {
             catch (Exception e){
                 JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
             }
+            display--;
             
             switch (display){
                 
-                case 1:
+                case 0:
                     JOptionPane.showMessageDialog(null, "R$ " + stats[bank][display] + ",00 in total have been withdrawn by " + banklist[bank] + " users.");
                     break;
                 
-                case 2: 
+                case 1: 
                     JOptionPane.showMessageDialog(null, "R$ " + stats[bank][display] + ",00 was the smallest amount withdrawn by " + banklist[bank] + " users.");
                     break;
                     
-                case 3: 
+                case 2: 
                     JOptionPane.showMessageDialog(null, "R$ " + stats[bank][display] + ",00 was the greatest amount withdrawn by " + banklist[bank] + " users.");
                     break;
                     
-                case 4: 
+                case 3: 
                     JOptionPane.showMessageDialog(null, "R$ " + (stats[bank][2]/stats[bank][3]) + ",00 have been withdrawn by " + banklist[bank] + " users.");
                     break;
                 
