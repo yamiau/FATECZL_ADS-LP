@@ -65,6 +65,11 @@ public class AutomaticTellerMachine {
                 JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
                 load_bills(cash);
             }
+            
+            if (cash[1][i] < 0){
+                JOptionPane.showMessageDialog(null, "Please only insert positive values");
+                load_bills(cash);
+            }
         }
         
         JOptionPane.showMessageDialog(null, "Bills loaded successfully!");
@@ -100,6 +105,11 @@ public class AutomaticTellerMachine {
             JOptionPane.showMessageDialog(null, "Please insert only Integer numerical characters.");
             main(null);
         }
+        if (value < 0){
+            JOptionPane.showMessageDialog(null, "Please only insert positive values");
+            withdraw(cash, stats);
+        }        
+        
         
         if (value < 4){
             if (value == 0){
