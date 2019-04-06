@@ -79,6 +79,8 @@ public class AutomaticTellerMachine {
             
             if (bank == 9){
                 main(null);
+            } else if ((bank < 1) || (bank > 4)){
+                JOptionPane.showMessageDialog(null, "Invalid operation!"); 
             }
         }
         bank--;
@@ -170,7 +172,9 @@ public class AutomaticTellerMachine {
             
             if (bank == 9){
                 main(null);
-            }    
+            } else if ((bank < 1) || (bank > 4)){
+                JOptionPane.showMessageDialog(null, "Invalid operation!"); 
+            }
         }
         bank--;
         
