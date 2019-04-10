@@ -54,7 +54,7 @@ public class AutomaticTellerMachine {
         }   
     }
     
-    static void load_bills(int[][] cash){
+    public static void load_bills(int[][] cash){
         
         for (int i = 0; i < cash[0].length; i++){
             
@@ -75,7 +75,7 @@ public class AutomaticTellerMachine {
         JOptionPane.showMessageDialog(null, "Bills loaded successfully!");
     }
     
-    static void withdraw(int[][] cash, int[][] stats){
+    public static void withdraw(int[][] cash, int[][] stats){
         
         //receive bank info
         int bank = 0;
@@ -127,7 +127,7 @@ public class AutomaticTellerMachine {
         bill_selection(cash, stats, value);
     }
     
-    static void gather_stats(int[][] stats, int bank, int value){
+    public static void gather_stats(int[][] stats, int bank, int value){
         
         stats[0][bank] += value;
         if (stats[3][bank] < 1){
@@ -141,7 +141,7 @@ public class AutomaticTellerMachine {
         stats[3][bank] ++;
     }
     
-    static void bill_selection(int[][] cash, int[][] stats, int value){
+    public static void bill_selection(int[][] cash, int[][] stats, int value){
                 
         while ((value % 10) != 0){
             if ( ((value % 2) == 0) || ((value % 10) == 1) || ((value % 10) == 7)){
@@ -167,7 +167,7 @@ public class AutomaticTellerMachine {
         JOptionPane.showMessageDialog(null, "Please withdraw your cash.");
     }
     
-    static void stats(int[][] stats){
+    public static void stats(int[][] stats){
         
         String[] banklist = {"Eagle", "Tiger", "Dragon", "Whale"};
         
