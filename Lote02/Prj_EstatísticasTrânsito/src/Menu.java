@@ -2,35 +2,55 @@ import java.io.*;
 import javax.swing.*;
 
 public class Menu {
-	public static void main(String args[]) throws IOException {
+	public static void main(String[] args) throws IOException {
+		Messages msg = new Messages();
+		int lang = (-1)  + Integer.parseInt(JOptionPane.showInputDialog(msg.LangSelect()));
+		
+		main(lang);
+	}
+	
+	public static void main(int lang) throws IOException{
 		//declaration
-		int x = 5;
+		int op = 0;
+		
 		Browse browse = new Browse();
 		Messages msg = new Messages();
 		Register reg = new Register();
-		Stats[][] stats = new Stats[4][x];
-		int lang = 0;
-		int op = 0;
-		
+		Read read = new Read();
+		Stats[] stats = new Stats[10];
+				
 		//initialization		
 		for (int i = 0; i < stats.length; i++) {
-			for (int j = 0; j < stats[0].length; j++) {
-				stats[i][j] = new Stats();
+			stats[i] = new Stats();
 			}
-		}
 		
-		//options
+		//options menu
 		while (op != 9) {
 			op = Integer.parseInt(JOptionPane.showInputDialog(msg.Options(lang)));
 			
 			switch(op) {
+				case 0:
+					read.main(stats, lang);
+					break;
 				case 1:
 					reg.main(stats, lang);
 					break;
 				case 2:
-					
+					browse.ByVehicle(stats, lang);
 					break;
-				
+				case 3:
+					browse.ByAccidents(stats, lang);
+					break;
+				case 4:
+					browse.ByCity(stats, lang);
+					break;
+				case 5:
+					browse.ByGeneral(stats, lang);
+					break;
+				case 9:
+					System.exit(0);
+				default:
+					JOptionPane.showMessageDialog(null, msg.Error(lang));
 			}
 		}
 	}

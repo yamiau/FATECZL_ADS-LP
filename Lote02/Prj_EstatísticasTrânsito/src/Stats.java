@@ -7,18 +7,6 @@ public class Stats {
 	private int accidents;
 	private int vehicle;
 	
-	//constructors
-	Stats() {
-		this("", 0, 0, 0);
-	}
-	
-	Stats(String cityname, int citycode, int numaccidents, int vehicode) {
-		name = cityname;
-		code = citycode;
-		accidents = numaccidents;
-		vehicle = vehicode;
-	}
-	
 	//getters and setters
 	public String getName() {
 		return name;
